@@ -1,24 +1,66 @@
 aid: kasa
 name: Kasa
-description: 'Kasa is a company surfaced as a portfolio company of ribbit-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: proptech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Kasa is a tech-enabled hospitality company operating a curated collection of furnished
+  apartments and boutique hotels across dozens of U.S. cities. Its asset-light model partners with
+  multifamily property owners and hotel operators to run flexible short-term, extended-stay, and
+  corporate accommodations, layering a proprietary technology platform on top for contactless
+  check-in, a virtual front desk, remote guest support, and unit operations. Kasa also serves
+  corporate housing and corporate travel programs. Backed by Ribbit Capital, the company is
+  tracked in the API Evangelist network as a proptech/hospitality provider; as of this profile it
+  publishes no public developer API, SDK, or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/kasa/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://res.cloudinary.com/kasa-living/image/upload/f_auto/q_auto/v1679344613/kasa-website/_home/hero-images/Copy_of_121208_KARose_Kasa_120AllenSt_UnitPH4_0860_Edit_zgndfv_3_zhyrpo.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - ribbit-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-public-api: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Proptech
+- Hospitality
+- Travel
+- Lodging
+- Short-Term Rental
+- Corporate Housing
+- Real Estate
+common:
+- type: DomainSecurity
+  url: security/kasa-domain-security.yml
+- url: https://kasa.com
+  type: Website
+- url: https://blog.kasa.com/
+  type: Blog
+- url: https://help.kasa.com/
+  type: Support
+- url: https://kasa.com/legal/terms-of-use
+  type: TermsOfService
+- url: https://kasa.com/legal/privacy-policy
+  type: PrivacyPolicy
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
